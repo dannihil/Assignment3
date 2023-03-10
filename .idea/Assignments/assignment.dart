@@ -9,9 +9,9 @@ void main() {
     shoppingList.add(text);
   }
 
-  bool isRunning = true;
-
+  //Program loop
   print("Going shopping? Want to make a shopping list? I can help!");
+  bool isRunning = true;
   while (isRunning) {
     print("-----------"); //seperation line
     print("What would you like to do?");
